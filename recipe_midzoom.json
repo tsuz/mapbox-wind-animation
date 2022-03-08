@@ -1,0 +1,19 @@
+{
+    "recipe": {
+        "version": 1,
+        "layers": {
+        "wind-line": {
+            "source": "mapbox://tileset-source/takutosuzukimapbox/wind-20000-planet-25",
+            "minzoom": 0,
+            "maxzoom": 10,
+            "features": {
+            "simplification": 0
+            }
+        }
+        }
+    },
+    "name": "Wind all zooms",
+    "description": "",
+    "attribution": [
+    ]
+}
