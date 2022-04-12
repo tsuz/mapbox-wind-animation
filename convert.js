@@ -46,8 +46,11 @@ async function process(
         let json;
         try {
             json = JSON.parse(line)
-        } catch(err) {
-            console.warn(err)
+        } catch (err) {
+            // last line is empty
+            if (line != '') {
+                console.warn(`Unable to JSON parse ${line}`)
+            }
             break
         }
         
