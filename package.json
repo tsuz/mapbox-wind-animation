@@ -1,0 +1,23 @@
+{
+  "name": "wind-data",
+  "version": "1.0.0",
+  "description": "Mapbox wind animation built with MTS and GL JS (portable to mobile SDKs)",
+  "main": "convert.js",
+  "dependencies": {
+    "@turf/turf": "^6.5.0",
+    "ngeohash": "^0.6.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsuz/mapbox-wind-animation.git"
+  },
+  "author": "Takuto Suzuki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsuz/mapbox-wind-animation/issues"
+  },
+  "homepage": "https://github.com/tsuz/mapbox-wind-animation#readme"
+}
